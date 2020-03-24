@@ -1,1 +1,9 @@
-token: dev-token
+sshd_permit_root_login: 'yes'
+sshd_password_authentication: 'yes'
+
+root_ssh_keys:
+  - https://github.com/ondrejsika.keys
+
+root_passwd: asdfasdf
+
+nginx_site_message: Hello from Devel!
